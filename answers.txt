@@ -1,7 +1,15 @@
 What is a gitignore file and what should it include for a Java project?
 
+-Gitignore is used to ignore those files that are required to exist in our project but don't require any source code control. For Java projects the gitignore file should include .class, .log, .jar etc. 
+
 What does fast-forward in Git mean?
+
+-In my opinion fast forward is used to catch up with a child branch that is sequential with the master branch. This just means that the pointer just moves from the master to where the child branch is pointing to.
 
 Why should you have different branches?
 
+-So that each member of the team can work on their own versions without having to break the source code and to also help with managing the changes made by each member.
+
 In a project how many remote Git repositories do you usually have?
+
+-One
